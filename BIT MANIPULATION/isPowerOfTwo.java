@@ -2,9 +2,7 @@ import java.util.*;
 class Main {
 
   public static boolean isPowerOfTwo(int n){
-       if ((n!=0) && ((n&(n-1))==0))
-           return true;
-       return false;
+       return ((n!=0) && ((n&(n-1))==0);
   }
   
   public static void main(String[] args) {
