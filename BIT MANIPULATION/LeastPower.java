@@ -1,5 +1,13 @@
 import java.util.*;
 class Main { 
+  //method1
+   public static int LeastPower(int n){
+    while((n>0) && ((n&(n-1))>0)){
+      n=n&(n-1);  
+    }
+    return n;
+  }
+  // method2
   public static int LeastPower(int n){
     int count=0;
     while(n !=1){
