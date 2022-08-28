@@ -9,5 +9,4 @@ class Solution {
         return x;
     }
 }  
-Footer
-© 2022 GitHub, Inc.
+
