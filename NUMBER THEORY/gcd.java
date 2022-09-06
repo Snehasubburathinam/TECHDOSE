@@ -8,5 +8,7 @@ class Main {
     int a=sc.nextInt();
     int b=sc.nextInt();
     System.out.println(GCD(a,b));
+    //lcm
+    int lcm=(a*b)/GCD(a,b);
   }
 }
