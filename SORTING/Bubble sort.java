@@ -7,7 +7,7 @@ class Main {
     for(int i=0;i<n;i++){
       arr[i]=sc.nextInt();
     }
-    for(int i=n-1;i>0;i--){
+    for(int i=n-1;i>=0;i--){
       boolean isSwapped=false;
       for(int j=0;j<i;j++){
         if(arr[j]>arr[j+1]){
