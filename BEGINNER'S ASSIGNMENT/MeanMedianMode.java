@@ -19,6 +19,7 @@ class Main {
     }else{
       System.out.println("Median is "+((n/2)+((n/2)+1))/2);
     }
+    /*Mode*/
     int maxVal=0,count=0,maxCount=0;
     for(int i=0;i<n;i++){
       count=0;
