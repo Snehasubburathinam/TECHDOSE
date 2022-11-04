@@ -6,15 +6,15 @@ public class Main{
     String res=";
     permutation(s,res);
   }
-  public static void Permutation(String s,String res){
+  public static void permutation(String s,String res){
    if(s.length()==0){
       System.out.println(res+" ");
      return;
   }
   for(int i=0;i<s.length();i++){
      char ch=s.charAt(i);
-     String left=str.substring(0,i);
-     String right=str.substring(i+1);
+     String left=s.substring(0,i);
+     String right=s.substring(i+1);
      permutation(left+right,res+ch);
   }
  }
